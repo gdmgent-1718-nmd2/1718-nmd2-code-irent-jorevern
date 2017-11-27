@@ -1,10 +1,4 @@
----
-layout   : default
-permalink: /
-# Custom Page Variables
-# ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
----
+--- layout : default permalink: / # Custom Page Variables # ───────────────────── title: Bootstrap 4 &mdash; Voorbeeld ---
 <div class="jumbotron">
     <h1 class="display-3">{{ page.title }}</h1>
 </div>
@@ -14,59 +8,68 @@ title: Bootstrap 4 &mdash; Voorbeeld
 
 <div class="container">
     <div class="wrapper">
-        <article>
-            <h2>Onze werking</h2>
-            <p>Woon je in de grootstad en heb je geen tuin, maar verlang je soms toch naar rustig tuinieren en kuieren in de
-                natuur?
-                <br>Huur dan hier een rustig stukje park waar je je in kan uitleven!
-                <br>Jij bepaald hoe lang je in ons tuintje wil zijn en wij zorgen dat alles klaar staat, van tuinstoel, tot zaden,
-                tot scharen, en hopelijk ook de zon!</p>
-        </article>
-        <article>
-            <h2>Onze visie</h2>
-            <p>Als stadsbewoners hadden wij het vroeger moeilijk met de dagelijkse drukte. Hoezeer we de stad adoreren, soms
-                hebben wij ook afleiding nodig, en bij afleiding bedolen we geen 50 inch flatscreen!
-                <br>Dus kwamen we op dit idee! We willen ons visie verspreiden en het stadsleven (iets) minder stressvol beleven.</p>
-        </article>
-        <article>
-            <h2>Plaats</h2>
-            <p>Je vind het moestuintje net buiten het centrum van Gent, in het rustige en aangename Keizerpark.</p>
-            <h2>Adres</h2>
-            <p> Keizerkarelpark 1, 9000 Gent
-                <br>Exact: 51°02'37.1"N 3°44'33.6"E</p>
-            <h2>Bereikbaarheid</h2>
-            <p>Vanuit Gent Centrum:
-                <br>routebeschrijving</p>
-            <p>Vanuit Mariakerke:
-                <br>routebeschrijving</p>
-            <p>Vanuit Gent-Sint-Pieters station:
-                <br>routebeschrijving
-            </p>
-        </article>
-        <article>
-            <h2>Veelgestelde vragen</h2>
+        <div class="col-5">
+            <article>
+                <h2>Onze werking</h2>
+                <p>Woon je in de grootstad en heb je geen tuin, maar verlang je soms toch naar rustig tuinieren en kuieren in
+                    de natuur?
+                    <br>Huur dan hier een rustig stukje park waar je je in kan uitleven!
+                    <br>Jij bepaald hoe lang je in ons tuintje wil zijn en wij zorgen dat alles klaar staat, van tuinstoel, tot
+                    zaden, tot scharen, en hopelijk ook de zon!</p>
+            </article>
+        </div>
+        <div class="col-5">
+            <article>
+                <h2>Onze visie</h2>
+                <p>Als stadsbewoners hadden wij het vroeger moeilijk met de dagelijkse drukte. Hoezeer we de stad adoreren,
+                    soms hebben wij ook afleiding nodig, en bij afleiding bedolen we geen 50 inch flatscreen!
+                    <br>Dus kwamen we op dit idee! We willen ons visie verspreiden en het stadsleven (iets) minder stressvol
+                    beleven.</p>
+            </article>
+        </div>
+        <div class="col-5">
+            <article>
+                <h2>Plaats</h2>
+                <p>Je vind het moestuintje net buiten het centrum van Gent, in het rustige en aangename Keizerpark.</p>
+                <h2>Adres</h2>
+                <p> Keizerkarelpark 1, 9000 Gent
+                    <br>Exact: 51°02'37.1"N 3°44'33.6"E</p>
+                <h2>Bereikbaarheid</h2>
+                <p>Vanuit Gent Centrum:
+                    <br>routebeschrijving</p>
+                <p>Vanuit Mariakerke:
+                    <br>routebeschrijving</p>
+                <p>Vanuit Gent-Sint-Pieters station:
+                    <br>routebeschrijving
+                </p>
+            </article>
+        </div>
+        <div class="col-10">
+            <article>
+                <h2>Veelgestelde vragen</h2>
 
-            <h3>Wat kan ik wel en niet doen in de moestuin?</h3>>
-            <p>Tijdens de afgesproken uren heb je carte blanche. Daarnaast zijn de standaarddingen belangrijk: geen eigendommen
-                die niet van jou zijn meenemen of kapotmaken. Moest er iets kapotzijn moet je het wel melden, geen zorgen,
-                alles is vervangbaar.</p>
+                <h3>Wat kan ik wel en niet doen in de moestuin?</h3>>
+                <p>Tijdens de afgesproken uren heb je carte blanche. Daarnaast zijn de standaarddingen belangrijk: geen eigendommen
+                    die niet van jou zijn meenemen of kapotmaken. Moest er iets kapotzijn moet je het wel melden, geen zorgen,
+                    alles is vervangbaar.</p>
 
-            <h3>Wat doe ik als mijn tijd er op zit?</h3>
-            <p>Wanneer je klaar bent met tuinieren is het wel belangrijk dat je het hek goed sluit zodat niemand anders ons
-                territorium kan betreden.</p>
-            
-            <h3>Wat bij slecht weer? / Tot wanneer kan ik annuleren?</h3>
-            <p>Je kan je reservering zonder extra kosten 24h op voorhand nog annuleren, wanneer je de dag zelf beslist dat je
-                niet komt opdagen kan je ons een mailtje sturen zodat we samen een compromis kunnen sluiten.</p>
+                <h3>Wat doe ik als mijn tijd er op zit?</h3>
+                <p>Wanneer je klaar bent met tuinieren is het wel belangrijk dat je het hek goed sluit zodat niemand anders
+                    ons territorium kan betreden.</p>
+                
+                <h3>Wat bij slecht weer? / Tot wanneer kan ik annuleren?</h3>
+                <p>Je kan je reservering zonder extra kosten 24h op voorhand nog annuleren, wanneer je de dag zelf beslist dat
+                    je niet komt opdagen kan je ons een mailtje sturen zodat we samen een compromis kunnen sluiten.</p>
 
-            <h3>Met hoeveel kan ik komen luieren/werken?</h3>
-            <p>Het moestuintje is 35 vierkante meter, dus om het comfortabel te houden mogen maximum 5 mensen tegelijk in het
-                moestuintje. Er is genoeg materiaal voor 5 personen.</p>
+                <h3>Met hoeveel kan ik komen luieren/werken?</h3>
+                <p>Het moestuintje is 35 vierkante meter, dus om het comfortabel te houden mogen maximum 5 mensen tegelijk in
+                    het moestuintje. Er is genoeg materiaal voor 5 personen.</p>
 
-            <h3>Wat kan/mag ik zelf meebrengen?</h3>
-            <p>Je mag je eigen tuinmateriaal meebrengen, maar er is standaard een schop, hark en mesthaak. Het is wel niet de
-                bedoeling dat je je eigen mest, onkruidverdelger of dergelijke meeneemt. </p>
-        </article>
+                <h3>Wat kan/mag ik zelf meebrengen?</h3>
+                <p>Je mag je eigen tuinmateriaal meebrengen, maar er is standaard een schop, hark en mesthaak. Het is wel niet
+                    de bedoeling dat je je eigen mest, onkruidverdelger of dergelijke meeneemt. </p>
+            </article>
+        </div>
         <div class="container">
             <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
         </div>
