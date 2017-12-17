@@ -3,3 +3,95 @@
 @charset "UTF-8";
 
 @import "main";
+
+
+:root {
+    --orange: #E15200;
+}
+
+.card{
+    background-color: white;
+    margin-bottom: 2rem;
+    margin-left: 10px;
+    border: 0;
+    margin-top: 40px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 140%;
+    background-color: rgb(229,213,197);
+    color: rgb(120,120,120);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0; 
+    font-size: 17px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: #E15200;
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(120,120,120);
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 0; 
+}
+
+.kleine_tekst,
+.verplicht{
+    font-size: 12px;
+}
+
+.verplicht{
+    color: #E15200;
+}
+
+article{
+    margin-bottom: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+.article_2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo{
+    height: 150px;
+    margin-top: 40px;
+}
+
+.navbar{
+    padding: 17px;
+    margin-top: 40px;
+    border-bottom: 2px solid #E15200;
+    border-top: 2px solid #E15200;
+}
+
+.navbarfooter{
+    padding: 17px;
+    margin-top: 40px;
+    border: none;
+}
+
+a{
+    color: white;
+}
+
+.fixed-bottom {
+    position: relative;
+}
+
+.ervaring-foto{
+    width: 100%;
+}
