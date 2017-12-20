@@ -9,20 +9,13 @@
     --orange: #E15200;
 }
 
-.card{
-    background-color: white;
-    margin-bottom: 2rem;
-    margin-left: 10px;
-    border: 0;
-    margin-top: 40px;
-}
 
 body{
     font-family: Roboto, sans-serif;
     font-size: 17px;
     line-height: 140%;
     background-color: rgb(229,213,197);
-    color: rgb(120,120,120);
+    color: rgb(127,119,112);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h3{
-    color: rgb(120,120,120);
+    color: rgb(127,119,112);
     text-align: left;
     margin-bottom: 15px;
     margin-top: 30px;
@@ -72,8 +65,9 @@ article{
 }
 
 .navbar{
-    padding: 17px;
+    padding: 5px;
     margin-top: 40px;
+    margin-bottom: 40px;
     border-bottom: 2px solid #E15200;
     border-top: 2px solid #E15200;
 }
@@ -94,4 +88,46 @@ a{
 
 .ervaring-foto{
     width: 100%;
+}
+
+.kader{
+    background-color: white;
+    border: 10px solid rgb(229,213,197);
+    margin-top: 40px;
+}
+
+.plattegrond{
+    width: 103,5%;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-image: url('/assets/images/green_leaf.png');
+}
+
+tr{
+    background-color: rgb(127,119,112);
+    color: white;
+}
+
+.bg-light{
+    background-color: transparent !important;
+}
+
+.nav-item{
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.nav-item.active{
+    color: rgb(127,119,112);
+}
+
+.btn-secondary{
+    width: 45px;
+    border-radius: 0%;
 }
