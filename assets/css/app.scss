@@ -7,7 +7,7 @@
 body{
     font-family: Roboto, sans-serif;
     font-size: 12px;
-    line-height: 140%;
+    line-height: 160%;
     background-color: rgb(229,213,197);
     color: rgb(127,119,112);
 }
@@ -111,19 +111,13 @@ tr{
 }
 
 .navigatie{
-    background-color: #E15200;
+    background-color:rgb(127,119,112);
     margin-bottom: 15px;
 }
 
 .nav-item{
     padding-left: 40px;
     padding-right: 40px;
-
-}
-
-
-.navbar-light .navbar-toggler-icon{
-    background-image: url(/assets/images/hamburger.png)
 }
 
 .navbar-light .navbar-toggler{
@@ -134,9 +128,11 @@ tr{
     color: rgb(127,119,112);
 }
 
+
 .btn-secondary{
-    width: 45px;
+    width: 30px;
     border-radius: 0%;
+    font-size: 12px;
 }
 
 
@@ -184,53 +180,54 @@ tr{
 @media only screen and (min-width: 576px) {
     body{
         font-size: 17px;
-    }
+        line-height: 140%;}
     h1, h2, h3, h4, h5, h6 {
         font-size: 17px;
         margin-bottom: 50px;
-        margin-top: 50px;
-    }
+        margin-top: 50px;}
     article{
         margin-bottom: 50px;
         margin-left: 65px;
-        margin-right: 65px;
-    }
+        margin-right: 65px;}
     h3{
         margin-bottom: 15px;
-        margin-top: 30px;
-    }
+        margin-top: 30px;}
     .kader{
         border: 10px solid rgb(229,213,197);
-        margin-top: 40px;
-    }
+        margin-top: 40px;}
     .plattegrond{
         width: auto;
-        border: 10px solid rgb(229,213,197);
-    }
+        border: 10px solid rgb(229,213,197);}
     .logo{
         height: 150px;
         margin-top: 40px;
-        margin-bottom: 40px;
-    }
+        margin-bottom: 40px;}
     .navbar{
         padding: 5px;
         margin-top: 40px;
         margin-bottom: 40px;
         border-bottom: 2px solid #E15200;
-        border-top: 2px solid #E15200;
-    }
+        border-top: 2px solid #E15200;}
     .navigatie{
-        background-color: transparent;
-    }
+        background-color: transparent;}
+    .btn-secondary{
+        width: 40px;
+        font-size: 17px;}
  }
  
  @media only screen and (min-width: 768px) {
+    .btn-secondary{
+        width: 40px;}
     
  }
  
  @media only screen and (min-width: 992px) {
+    .btn-secondary{
+        width: 35px;}
  }
  
  @media only screen and (min-width: 1200px) {
+    .btn-secondary{
+        width: 40px;}
  }
 
