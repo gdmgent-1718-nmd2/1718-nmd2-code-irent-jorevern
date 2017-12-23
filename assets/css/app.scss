@@ -4,15 +4,9 @@
 
 @import "main";
 
-
-:root {
-    --orange: #E15200;
-}
-
-
 body{
     font-family: Roboto, sans-serif;
-    font-size: 17px;
+    font-size: 12px;
     line-height: 140%;
     background-color: rgb(229,213,197);
     color: rgb(127,119,112);
@@ -20,9 +14,9 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0; 
-    font-size: 17px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     text-align: center;
     color: #E15200;
     font-weight: bold;
@@ -49,9 +43,9 @@ p {
 }
 
 article{
-    margin-bottom: 50px;
-    margin-left: 65px;
-    margin-right: 65px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .article_2 {
@@ -96,8 +90,6 @@ a{
     margin-top: 40px;
 }
 
-
-
 ul{
     list-style-type: none;
     margin: 0;
@@ -139,7 +131,7 @@ tr{
 }
 
 .custom-control-indicator {
-    background-color:  #E15200;
+    background-color: rgb(127,119,112);
 }
 
 .btn-secondary {
@@ -151,25 +143,60 @@ tr{
 .form-control {
     color: white;
     background-color: rgb(127,119,112);
-    background-clip: padding-box;
     border: none;
-    border-radius: 0;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
-    .form-control::-ms-expand {
-      background-color: transparent;
-      border: 0; }
+    border-radius: 0;}
     .form-control:focus {
       color: white;
       background-color: rgb(127,119,112);
-      border-color: #ff556c;
-      outline: 0;
       box-shadow: none; }
     .form-control::placeholder {
-      color: rgba(255, 255, 255, 0.3);
-      opacity: 1; }
-    .form-control:disabled, .form-control[readonly] {
-      background-color: khaki;
-      opacity: 1; }
+      color: rgba(255, 255, 255, 0.3);}
+
+.custom-control-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0; }
+    .custom-control-input:focus ~ .custom-control-indicator {
+        box-shadow: none; }
+    .custom-control-input:active ~ .custom-control-indicator {
+        background-color: rgb(127,119,112); }
 
 
+
+@media only screen and (min-width: 576px) {
+    body{
+        font-size: 17px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0; 
+        font-size: 17px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+        color: #E15200;
+        font-weight: bold;
+    }
+    article{
+        margin-bottom: 50px;
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+    h3{
+        color: rgb(127,119,112);
+        text-align: left;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+ }
+ 
+ @media only screen and (min-width: 768px) {
+    
+ }
+ 
+ @media only screen and (min-width: 992px) {
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+ }
 
