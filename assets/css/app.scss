@@ -15,7 +15,7 @@ body{
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0; 
     font-size: 12px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     margin-top: 25px;
     text-align: center;
     color: #E15200;
@@ -54,16 +54,24 @@ article{
 }
 
 .logo{
-    height: 150px;
-    margin-top: 40px;
+    height: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.kader{
+    background-color: white;
+    border: 10px solid rgb(229,213,197);
+    margin-top: 5px;
+}
+
+.plattegrond{
+    width: 100%;
+    border: none;
 }
 
 .navbar{
-    padding: 5px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-bottom: 2px solid #E15200;
-    border-top: 2px solid #E15200;
+    padding: 0;
 }
 
 .navbarfooter{
@@ -84,11 +92,7 @@ a{
     width: 100%;
 }
 
-.kader{
-    background-color: white;
-    border: 10px solid rgb(229,213,197);
-    margin-top: 40px;
-}
+
 
 ul{
     list-style-type: none;
@@ -106,10 +110,24 @@ tr{
     background-color: transparent !important;
 }
 
+.navigatie{
+    background-color: #E15200;
+    margin-bottom: 15px;
+}
+
 .nav-item{
     padding-left: 40px;
     padding-right: 40px;
 
+}
+
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url(/assets/images/hamburger.png)
+}
+
+.navbar-light .navbar-toggler{
+    border-color: transparent;
 }
 
 .nav-item.active{
@@ -167,15 +185,10 @@ tr{
     body{
         font-size: 17px;
     }
-
     h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 0; 
         font-size: 17px;
         margin-bottom: 50px;
         margin-top: 50px;
-        text-align: center;
-        color: #E15200;
-        font-weight: bold;
     }
     article{
         margin-bottom: 50px;
@@ -183,10 +196,31 @@ tr{
         margin-right: 65px;
     }
     h3{
-        color: rgb(127,119,112);
-        text-align: left;
         margin-bottom: 15px;
         margin-top: 30px;
+    }
+    .kader{
+        border: 10px solid rgb(229,213,197);
+        margin-top: 40px;
+    }
+    .plattegrond{
+        width: auto;
+        border: 10px solid rgb(229,213,197);
+    }
+    .logo{
+        height: 150px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .navbar{
+        padding: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        border-bottom: 2px solid #E15200;
+        border-top: 2px solid #E15200;
+    }
+    .navigatie{
+        background-color: transparent;
     }
  }
  
