@@ -1,36 +1,52 @@
 <div class="row">
-    <div class="row justify-content-center col-12">
-        <img src="assets/images/logo.png" alt="logo" class="logo">
+        <div class="row justify-content-center col-12">
+            <img src="assets/images/logo.png" alt="logo" class="logo">
+        </div>
     </div>
-</div>
+    
+    <div class="d-flex justify-content-center navigatie">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- hamburger icoon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- hoofdnavigatie -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              {% assign links = site.data.navigation %}
+              {% for link in links %}
+                  {% assign class = nil %}
+                  {% if link.url contains page.url %}
+                      {% assign class = ' active' %}
+                  {% endif %}
+                  {% if link.sublinks %}
+                      <li class="nav-item dropdown {{ class }}">
+                          <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link dropdown-toggle {{ class }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+                      </li>
+                  {% else %}
+                      <li class="nav-item{{ class }}">
+                          <a class="nav-link{{ class }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                      </li>
+                  {% endif %}
+              {% endfor %}
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-<div class="d-flex justify-content-center navigatie">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- hamburger icoon -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <!-- hoofdnavigatie -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-          {% assign links = site.data.navigation %}
-          {% for link in links %}
-              {% assign class = nil %}
-              {% if link.url contains page.url %}
-                  {% assign class = ' active' %}
-              {% endif %}
-              {% if link.sublinks %}
-                  <li class="nav-item dropdown {{ class }}">
-                      <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link dropdown-toggle {{ class }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-                  </li>
-              {% else %}
-                  <li class="nav-item{{ class }}">
-                      <a class="nav-link{{ class }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-                  </li>
-              {% endif %}
-          {% endfor %}
-      </ul>
-    </div>
-  </nav>
+
+<div class="social-buttons">
+    <a href="https://www.facebook.com/">
+        <img src="assets/images/facebook.png" onmouseover="this.src= 'assets/images/facebook-a.png'" onmouseout="this.src='assets/images/facebook.png'" alt="" class="iconen" style="top:0px">
+    </a>
+    <a href="https://www.instagram.com/">
+        <img src="assets/images/insta.png" onmouseover="this.src= 'assets/images/insta-a.png'" onmouseout="this.src='assets/images/insta.png'" alt="" class="iconen" style="top:60px">
+    </a>
+    <a href="https://twitter.com/">
+    <img src="assets/images/twitter.png" onmouseover="this.src= 'assets/images/twitter-a.png'" onmouseout="this.src='assets/images/twitter.png'" alt="" class="iconen" style="top:120px">
+    </a>
+    <a href="https://plus.google.com/discover">
+    <img src="assets/images/google.png" onmouseover="this.src= 'assets/images/google-a.png'" onmouseout="this.src='assets/images/google.png'" alt="" class="iconen" style="top:180px">
+    </a>
 </div>
