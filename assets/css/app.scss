@@ -158,18 +158,22 @@ tr{
 .social-buttons{
     position: fixed;
     z-index: 999999;
-    top: 85px;
+    top: 170px;
     left: 0px;
+}
+
+.social-buttons-2{
+    display: none;
 }
 
 .iconen{
     left: 0;
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
     background-color: #E15200;
-    padding: 18px;
+    padding: 3px;
 }
 
 
@@ -243,7 +247,8 @@ tr{
         margin-bottom: 40px;}
     .btn-secondary{
         width: 40px;
-        font-size: 17px;}
+        font-size: 17px;
+    }
  }
  
  @media only screen and (min-width: 768px) {
@@ -256,6 +261,21 @@ tr{
         margin-bottom: 40px;
         border:none;
         background-color:rgb(127,119,112);
+    }
+    .social-buttons{
+        display: none;
+    }
+    .social-buttons-2{
+        position: fixed;
+        z-index: 999999;
+        top: 85px;
+        left: 0px;
+        display:flex;
+    }
+    .iconen{
+        width: 60px;
+        height: 60px;
+        padding: 18px;
     }
  }
  
