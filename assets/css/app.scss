@@ -75,9 +75,12 @@ article{
     margin-top: 5px;
 }
 
+.kader-images{
+    background-color: rgb(82,108,117);
+}
+
 .plattegrond{
     width: 100%;
-    border: none;
 }
 
 .navbar{
@@ -173,7 +176,7 @@ tr{
     height: 25px;
     display: inline-block;
     background-color: #E15200;
-    padding: 3px;
+    padding: 5px;
 }
 
 
@@ -231,20 +234,16 @@ tr{
     article{
         margin-bottom: 50px;
         margin-left: 65px;
-        margin-right: 65px;}
+        margin-right: 65px;
+    }
     h3{
         margin-bottom: 15px;
-        margin-top: 30px;}
+        margin-top: 30px;
+    }
     .kader{
         border: 10px solid rgb(229,213,197);
-        margin-top: 40px;}
-    .plattegrond{
-        width: auto;
-        border: 10px solid rgb(229,213,197);}
-    .logo{
-        height: 150px;
         margin-top: 40px;
-        margin-bottom: 40px;}
+    }
     .btn-secondary{
         width: 40px;
         font-size: 17px;
@@ -275,8 +274,12 @@ tr{
     .iconen{
         width: 60px;
         height: 60px;
-        padding: 18px;
+        padding: 15px;
     }
+    .logo{
+        height: 150px;
+        margin-top: 40px;
+        margin-bottom: 40px;}
  }
  
  @media only screen and (min-width: 992px) {
