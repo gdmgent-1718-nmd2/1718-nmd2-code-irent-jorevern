@@ -49,7 +49,8 @@ p {
 
 .kleine_tekst,
 .verplicht{
-    font-size: 12px;
+    font-size: 8px;
+    line-height: 120%;
 }
 
 .verplicht{
@@ -103,8 +104,6 @@ article{
     color: white;
 }
 
-
-
 a{
     color: #fff
 }
@@ -125,6 +124,7 @@ a:hover{
 
 .ervaring-foto{
     width: 100%;
+    padding-top: 15px;
 }
 
 
@@ -222,9 +222,13 @@ tr{
     padding: 5px;
 }
 
+.img-footer{
+    padding-left: 0;
+}
 
 .col-form-label {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-indicator {
@@ -246,6 +250,7 @@ tr{
     background-color: rgb(127,119,112);
     border: none;
     border-radius: 0;
+    font-size: 12px;
 }
 .form-control:focus {
     color: white;
@@ -300,6 +305,17 @@ tr{
     .btn-primary {
         margin-top: 40px;
         font-size:17px;
+    }
+    .col-form-label {
+        padding-bottom: 30px;
+    }
+    .form-control {
+        font-size: 17px;
+    }
+    .kleine_tekst,
+    .verplicht{
+    font-size: 12px;
+    line-height: 140%;
     }
  }
  
