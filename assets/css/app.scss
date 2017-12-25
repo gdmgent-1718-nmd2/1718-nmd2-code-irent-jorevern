@@ -57,6 +57,10 @@ p {
     color: #E15200;
 }
 
+.footer-icoon{
+    width: 20px;
+}
+
 article{
     margin-bottom: 25px;
     margin-left: 15px;
@@ -208,6 +212,17 @@ tr{
     left: 0px;
 }
 
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.pijltje::before {
+    content: ">"; 
+    color: rgb(168,212,48);
+    padding-right: 10px;
+}
+
 .social-buttons-2{
     display: none;
 }
@@ -316,6 +331,9 @@ tr{
     .verplicht{
     font-size: 12px;
     line-height: 140%;
+    }
+    .footer-icoon{
+        width: 40px;
     }
  }
  
