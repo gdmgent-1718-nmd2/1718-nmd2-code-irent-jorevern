@@ -103,8 +103,20 @@ article{
     color: white;
 }
 
+
+
 a{
-    color: white;
+    color: #fff
+}
+
+a:hover{
+    color: rgb(168,212,48);
+    text-decoration: none;
+}  
+
+.route{
+    text-decoration: underline;
+    color: rgb(127,119,112);
 }  
 
 .fixed-bottom {
@@ -138,6 +150,11 @@ tr{
 
 .nav-item.active{
     color: rgb(127,119,112);
+}
+
+.navbar-light .navbar-nav .active > .nav-link,{
+    color: rgb(127,119,112);
+    text-decoration: none;
 }
 
 
