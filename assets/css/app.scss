@@ -29,6 +29,10 @@ h3{
     margin-top: 30px;
 }
 
+.sterretje{
+    color: #E15200;
+}
+
 .carousel-caption {
     position: absolute;
     right: 9%;
@@ -143,8 +147,29 @@ tr{
     font-size: 12px;
 }
 
-
-
+.btn-primary {
+    background-color:#E15200;
+    border-color: transparent;
+    border-radius: 0%;
+    margin-top: 10px;
+    font-size:12px;
+}
+.btn-primary:hover {
+    background-color:  rgb(168,212,48);
+    border-color: transparent; 
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none; 
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    background-color: #E15200;
+    border-color: transparent; 
+}
+.btn-primary:not([disabled]):not(.disabled):active, .btn-primary:not([disabled]):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: rgb(168,212,48);
+    border-color: transparent;
+    box-shadow: none; 
+}
 
 .links{
     position: absolute;
@@ -203,22 +228,28 @@ tr{
     color: white;
     background-color: rgb(127,119,112);
     border: none;
-    border-radius: 0;}
-    .form-control:focus {
-      color: white;
-      background-color: rgb(127,119,112);
-      box-shadow: none; }
-    .form-control::placeholder {
-      color: rgba(255, 255, 255, 0.3);}
+    border-radius: 0;
+}
+.form-control:focus {
+    color: white;
+    background-color: rgb(127,119,112);
+    box-shadow: none; 
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
 
 .custom-control-input {
     position: absolute;
     z-index: -1;
-    opacity: 0; }
-    .custom-control-input:focus ~ .custom-control-indicator {
-        box-shadow: none; }
-    .custom-control-input:active ~ .custom-control-indicator {
-        background-color: rgb(127,119,112); }
+    opacity: 0; 
+}
+.custom-control-input:focus ~ .custom-control-indicator {
+        box-shadow: none; 
+}
+.custom-control-input:active ~ .custom-control-indicator {
+        background-color: rgb(127,119,112); 
+}
 
 
 
@@ -248,6 +279,10 @@ tr{
     .btn-secondary{
         width: 40px;
         font-size: 17px;
+    }
+    .btn-primary {
+        margin-top: 40px;
+        font-size:17px;
     }
  }
  
