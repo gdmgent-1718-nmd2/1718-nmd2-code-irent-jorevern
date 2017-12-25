@@ -157,8 +157,12 @@ tr{
 }
 
 .navbar-light .navbar-nav .active > .nav-link,{
-    color: rgb(127,119,112);
+    color: #fff;
     text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
 }
 
 
@@ -390,6 +394,13 @@ ul{
     }
     .navigatie{
         background-color: transparent;
+    }
+    .navbar-light .navbar-nav .active > .nav-link,{
+        color: rgb(127,119,112);
+        text-decoration: none;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: rgb(127,119,112);
     }
  }
  
